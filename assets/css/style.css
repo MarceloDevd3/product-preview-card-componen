@@ -1,0 +1,126 @@
+* {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    }
+
+body {
+    font-size: 0.875rem;
+    background-color: var(--Cream);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: ease-in-out 2s;
+}
+
+
+
+
+
+
+.green {
+    color: var(--Dark-cyan);
+}
+
+.green-bg {
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+}
+
+
+.desk-img {
+    display: none;
+}
+
+.img-area img {
+    max-width: 100%;
+}
+
+
+.card-container {
+    max-width: 347px;
+    height:614px ;
+    background-color:var(--White);
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 1.3em auto;
+}
+
+.img-area img {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+.info-area {
+    padding: 2em;
+}
+
+
+p ,.letter-space{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    font-family: 'Fraunces', serif;;
+}
+
+.letter-space {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    color: gray;
+}
+
+.price-zone {
+    margin: 1.2em 0;
+}
+
+ h2 > strong {
+    background-color: white;
+    font-size: 2.7em;
+    margin-right: 0.5em;
+}
+
+.line {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 1.2em;
+}
+
+.btn-cart {
+    width: 100%;
+    height: 20%;
+}
+
+
+
+

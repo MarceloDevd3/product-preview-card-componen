@@ -1,0 +1,52 @@
+@media  (min-width: 900px){
+
+    .card:hover , .card:active {
+        transform: scale(1.1);
+        transition-duration: 2s;
+        box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.39);
+        -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.39);
+        -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.39);
+    }
+
+    .card-container {
+        max-width: 600px;
+        height:391px ;
+    }
+    
+
+    .card {
+        flex-direction: row;
+        margin: 7.5em auto;
+    }
+
+    .img-area img {
+        border-radius: 10px 0 0 10px ;
+
+    }
+    
+   .desk-img {
+    display: block;
+    }
+
+    .mobile-img {
+    display: none;
+    }
+
+    .img-area img {
+        max-width: 400px;
+        height: 100%;
+    }
+
+    .btn-cart {
+        margin-top: 1.5em;
+        height: 15%;
+    }
+}
+
+
+@media  (min-width: 1440px) {
+    .card {
+        flex-direction: row;
+        margin: 15% auto;
+    }
+}
